@@ -62,4 +62,10 @@ who # Display users currently logged in
 id # Display current user's UID and GID
 last # Display last logged in users
 
+id jdoe # Display user's UID and GID
+
+who -a # Display all users currently logged in
+
+last -a # Display all users last logged in
+
 ```
