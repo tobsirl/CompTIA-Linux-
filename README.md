@@ -56,5 +56,10 @@ sudo gpasswd -d jdoe group1
 # Delete group
 sudo groupdel group1
 
+# Query Users and Groups
+whoami # Display current user
+who # Display users currently logged in
+id # Display current user's UID and GID
+last # Display last logged in users
 
 ```
