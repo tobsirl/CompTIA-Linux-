@@ -44,4 +44,17 @@ groupadd # Create group
 groupmod # Modify group
 groupdel # Delete group
 
+sudo groupadd group1 # Create group
+sudo groupmod -n group2 group1 # Rename group
+
+# Add user to group
+sudo usermod -a -G group1 jdoe
+
+# Remove user from group
+sudo gpasswd -d jdoe group1
+
+# Delete group
+sudo groupdel group1
+
+
 ```
