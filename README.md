@@ -24,4 +24,6 @@ chage -l cmason # Display user expiration date
 chage -E 2021-12-31 cmason # Set user expiration date
 
 chage -M 90 cmason # Set user password expiration
+
+sudo useradd -l -u 1001 -g 1001 -c "John Doe" jdoe # Create user with UID and GID
 ```
