@@ -38,4 +38,10 @@ sudo usermod -c "John Doe" jdoe # Change user comment
 sudo userdel -r jdoe # Delete user and home directory
 
 sudo userdel -r -f jdoe # Delete user and home directory without confirmation
+
+# Group Management
+groupadd # Create group
+groupmod # Modify group
+groupdel # Delete group
+
 ```
