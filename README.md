@@ -68,4 +68,16 @@ who -a # Display all users currently logged in
 
 last -a # Display all users last logged in
 
+# Account Profiles
+.bashrc # User's bash profile
+.bash_profile # All of the users bash profiles
+
+/etc/profile # System wide bash profile
+
+/etc/profile.d # Directory containing system wide bash profiles
+
+/etc/skel # Directory containing default user files
+
+/etc/bashrc # System wide bash profile
+
 ```
