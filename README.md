@@ -34,4 +34,8 @@ sudo passwd -u jdoe # Unlock user account
 sudo cat /etc/shadow # Display user account status
 
 sudo usermod -c "John Doe" jdoe # Change user comment
+
+sudo userdel -r jdoe # Delete user and home directory
+
+sudo userdel -r -f jdoe # Delete user and home directory without confirmation
 ```
