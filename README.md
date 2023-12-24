@@ -30,4 +30,8 @@ sudo useradd -l -u 1001 -g 1001 -c "John Doe" jdoe # Create user with UID and GI
 sudo passwd -l jdoe # Lock user account
 
 sudo passwd -u jdoe # Unlock user account
+
+sudo cat /etc/shadow # Display user account status
+
+sudo usermod -c "John Doe" jdoe # Change user comment
 ```
