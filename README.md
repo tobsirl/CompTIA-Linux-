@@ -102,3 +102,30 @@ Access rights assigned to users that enable them to access or modify files and d
 -rw-r--r-- 1 tobsirl tobsirl 2.1K Dec 25 11:17 README.md
 
 ```
+
+#### Commands
+
+##### chmod
+
+- Syntax: chmod [options] mode[,mode] file1 [file2 ...]
+- Options:
+  - -c, --changes: Like verbose but report only when a change is made
+  - -f, --silent, --quiet: Suppress most error messages
+  - -v, --verbose: Output a diagnostic for every file processed
+  - -R, --recursive: Change files and directories recursively
+  - -h, --no-dereference: Do not dereference symbolic links
+  - --preserve-root: Fail to operate recursively on '/'
+  - --reference=RFILE: Use RFILE's mode instead of MODE values
+  - --version: Output version information and exit
+  - --help: Display this help and exit
+
+Symbolic Mode:
+Enables to set permissions using three components:
+
+- Who is affected
+- What permissions are being set
+- Whether permissions are being added or removed
+
+```bash
+chmod # Change file permissions
+```
