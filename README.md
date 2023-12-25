@@ -122,9 +122,9 @@ Access rights assigned to users that enable them to access or modify files and d
 Symbolic Mode:
 Enables to set permissions using three components:
 
-- Who is affected
-- What permissions are being set
-- Whether permissions are being added or removed
+Permission Context: u, g, o, a
+Permission Operator: +, -, =
+Permission Type: r, w, x
 
 ```bash
 chmod # Change file permissions
