@@ -119,12 +119,21 @@ Access rights assigned to users that enable them to access or modify files and d
   - --version: Output version information and exit
   - --help: Display this help and exit
 
-Symbolic Mode:
+**Symbolic Mode:**
 Enables to set permissions using three components:
 
 Permission Context: u, g, o, a
 Permission Operator: +, -, =
 Permission Type: r, w, x
+
+**Absolute Mode:**
+Enables to set permissions using a three-digit octal number.
+
+4 = read
+2 = write
+1 = execute
+
+777 = rwxrwxrwx
 
 ```bash
 chmod # Change file permissions
