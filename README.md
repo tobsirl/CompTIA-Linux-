@@ -81,3 +81,9 @@ last -a # Display all users last logged in
 /etc/bashrc # System wide bash profile
 
 ```
+
+## Permissions and Ownership
+
+### Permissions
+
+Access rights assigned to users that enable them to access or modify files and directories.
