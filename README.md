@@ -105,7 +105,7 @@ Access rights assigned to users that enable them to access or modify files and d
 
 #### Commands
 
-##### chmod
+_chmod_
 
 - Syntax: chmod [options] mode[,mode] file1 [file2 ...]
 - Options:
@@ -136,6 +136,10 @@ Enables to set permissions using a three-digit octal number.
 777 = rwxrwxrwx
 752 = rwxr-x-w-
 722 = rwx-w--w-
+
+_umask_
+
+Used to set default permissions for newly created files and directories.
 
 ```bash
 chmod # Change file permissions
