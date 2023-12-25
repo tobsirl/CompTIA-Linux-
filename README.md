@@ -87,3 +87,18 @@ last -a # Display all users last logged in
 ### Permissions
 
 Access rights assigned to users that enable them to access or modify files and directories.
+
+```bash
+# File Permissions
+# r = read
+# w = write
+# x = execute
+# - = no permission
+# 7 columns
+# 1st column = file type
+# 2nd-4th column = owner permissions
+# 5th-7th column = group permissions
+# 8th-10th column = other permissions
+-rw-r--r-- 1 tobsirl tobsirl 2.1K Dec 25 11:17 README.md
+
+```
