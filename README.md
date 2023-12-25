@@ -134,6 +134,8 @@ Enables to set permissions using a three-digit octal number.
 1 = execute
 
 777 = rwxrwxrwx
+752 = rwxr-x-w-
+722 = rwx-w--w-
 
 ```bash
 chmod # Change file permissions
