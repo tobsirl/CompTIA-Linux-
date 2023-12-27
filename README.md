@@ -156,3 +156,14 @@ chown # Change file owner and group
 chown [options] [owner][:[group]] file1 [file2 ...]
 chown {username}: {group name} {file/directory}
 ```
+
+_chgrp_
+
+Used to change the group ownership of a file or directory.
+
+```bash
+chgrp # Change file group
+
+# Syntax:
+chgrp [options] group file1 [file2 ...]
+```
