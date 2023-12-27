@@ -148,3 +148,11 @@ chmod # Change file permissions
 _chown_
 
 Used to change the owner and/or group of a file or directory.
+
+```bash
+chown # Change file owner and group
+
+# Syntax:
+chown [options] [owner][:[group]] file1 [file2 ...]
+chown {username}: {group name} {file/directory}
+```
