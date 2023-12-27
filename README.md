@@ -144,3 +144,7 @@ Used to set default permissions for newly created files and directories.
 ```bash
 chmod # Change file permissions
 ```
+
+_chown_
+
+Used to change the owner and/or group of a file or directory.
