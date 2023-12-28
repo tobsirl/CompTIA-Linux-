@@ -171,3 +171,27 @@ chgrp [options] group file1 [file2 ...]
 ### Special Permissions and Attributes
 
 The less privileged users are able to perform certain tasks that require elevated privileges.
+
+#### Set User ID (SUID)
+
+User is allowed to have similar permissions as the owner of the file.
+
+```bash
+# Set SUID
+chmod u+s {file/directory}
+
+# Remove SUID
+chmod u-s {file/directory}
+```
+
+Set Group ID (SGID)
+
+Group is allowed to have similar permissions as the group of the file.
+
+```bash
+# Set SGID
+chmod g+s {file/directory}
+
+# Remove SGID
+chmod g-s {file/directory}
+```
