@@ -167,3 +167,7 @@ chgrp # Change file group
 # Syntax:
 chgrp [options] group file1 [file2 ...]
 ```
+
+### Special Permissions and Attributes
+
+The less privileged users are able to perform certain tasks that require elevated privileges.
