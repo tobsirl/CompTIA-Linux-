@@ -213,3 +213,15 @@ chmod 1775 {file/directory}
 chmod o-t {file/directory}
 chmod 0775 {file/directory}
 ```
+
+#### Immutable Flag
+
+Attribute of a file or directory that prevents it from being modified, renamed, or deleted.
+
+Immutable flag is useful for files that are highly sensitive and important.
+
+```bash
+# Set Immutable Flag
+chattr +i {file/directory}
+chattr -i {file/directory}
+```
