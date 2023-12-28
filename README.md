@@ -179,9 +179,11 @@ User is allowed to have similar permissions as the owner of the file.
 ```bash
 # Set SUID
 chmod u+s {file/directory}
+chmod 4775 {file/directory}
 
 # Remove SUID
 chmod u-s {file/directory}
+chmod 0775 {file/directory}
 ```
 
 Set Group ID (SGID)
@@ -191,7 +193,9 @@ Group is allowed to have similar permissions as the group of the file.
 ```bash
 # Set SGID
 chmod g+s {file/directory}
+chmod 2775 {file/directory}
 
 # Remove SGID
 chmod g-s {file/directory}
+chmod 0775 {file/directory}
 ```
