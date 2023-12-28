@@ -186,7 +186,7 @@ chmod u-s {file/directory}
 chmod 0775 {file/directory}
 ```
 
-Set Group ID (SGID)
+#### Set Group ID (SGID)
 
 Group is allowed to have similar permissions as the group of the file.
 
@@ -197,5 +197,19 @@ chmod 2775 {file/directory}
 
 # Remove SGID
 chmod g-s {file/directory}
+chmod 0775 {file/directory}
+```
+
+#### Sticky Bit
+
+Prevents users from deleting or renaming files that they do not own.
+
+```bash
+# Set Sticky Bit
+chmod o+t {file/directory}
+chmod 1775 {file/directory}
+
+# Remove Sticky Bit
+chmod o-t {file/directory}
 chmod 0775 {file/directory}
 ```
