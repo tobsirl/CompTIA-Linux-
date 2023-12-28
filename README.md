@@ -239,3 +239,13 @@ setfacl {file/directory} # Set ACLs
 # Syntax:
 setfacl [options] [{-b|-k} {directory|file}] [{-m|-x} acl_entries] file ...
 ```
+
+### Troubleshooting Permissions
+
+1. Identify the problem
+1. Establish a theory of probable cause
+1. Test the theory to determine the cause
+1. Establish an action plan
+1. Implement the solution
+1. Verify full system functionality
+1. Document findings, actions, and outcomes
