@@ -222,6 +222,20 @@ Immutable flag is useful for files that are highly sensitive and important.
 
 ```bash
 # Set Immutable Flag
+lsattr {file/directory}
+lsattr -a {file/directory}
 chattr +i {file/directory}
 chattr -i {file/directory}
+```
+
+### Access Control Lists (ACLs)
+
+ACLs are used to grant permissions to users and groups that are not the owner of the file or directory.
+
+```bash
+getfacl {file/directory} # Display ACLs
+setfacl {file/directory} # Set ACLs
+
+# Syntax:
+setfacl [options] [{-b|-k} {directory|file}] [{-m|-x} acl_entries] file ...
 ```
