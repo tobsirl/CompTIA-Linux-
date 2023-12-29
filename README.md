@@ -287,3 +287,7 @@ Used to be the native Linux file system of some older Linux distributions.
 _ext3_
 
 Much faster in recovering data and better ensures data integrity in abrupt system shutdowns.
+
+_ext4_
+
+Supports volumes up to one exabyte and files up to 16 terabytes.
