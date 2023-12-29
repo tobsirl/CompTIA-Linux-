@@ -262,3 +262,7 @@ setfacl [options] [{-b|-k} {directory|file}] [{-m|-x} acl_entries] file ...
 _Block Devices_
 
 - Read/write in blocks of data (eg. hard drives, SSDs, USB flash drives)
+
+_Character Devices_
+
+- Read/write in streams of data (eg. keyboards, mice, printers)
