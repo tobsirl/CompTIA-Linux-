@@ -258,3 +258,7 @@ setfacl [options] [{-b|-k} {directory|file}] [{-m|-x} acl_entries] file ...
 2. Solid State Drives (SSDs)
 3. USB Flash Drives
 4. External storage devices
+
+_Block Devices_
+
+- Read/write in blocks of data (eg. hard drives, SSDs, USB flash drives)
