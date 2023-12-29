@@ -266,3 +266,12 @@ _Block Devices_
 _Character Devices_
 
 - Read/write in streams of data (eg. keyboards, mice, printers)
+
+_File systems that Linux supports_
+
+- ext2
+- ext3
+- ext4
+- XFS
+- Btrfs
+- FAT
