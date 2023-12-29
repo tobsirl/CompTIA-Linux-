@@ -251,3 +251,10 @@ setfacl [options] [{-b|-k} {directory|file}] [{-m|-x} acl_entries] file ...
 1. Document findings, actions, and outcomes
 
 ## Storage Management
+
+### Types of Storage Devices
+
+1. Hard Disk Drives (HDDs)
+2. Solid State Drives (SSDs)
+3. USB Flash Drives
+4. External storage devices
