@@ -279,3 +279,7 @@ _File systems that Linux supports_
 _File Allocation Table (FAT)_
 
 An older file system compatible with different operating systems.
+
+_ext2_
+
+Used to be the native Linux file system of some older Linux distributions.
