@@ -283,3 +283,7 @@ An older file system compatible with different operating systems.
 _ext2_
 
 Used to be the native Linux file system of some older Linux distributions.
+
+_ext3_
+
+Much faster in recovering data and better ensures data integrity in abrupt system shutdowns.
