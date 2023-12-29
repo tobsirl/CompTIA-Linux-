@@ -291,3 +291,7 @@ Much faster in recovering data and better ensures data integrity in abrupt syste
 _ext4_
 
 Supports volumes up to one exabyte and files up to 16 terabytes.
+
+_XFS_
+
+A 64-bit, high-performance journaling file system that provides fast recovery and can handle large files efficiently.
