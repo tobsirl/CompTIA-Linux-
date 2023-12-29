@@ -275,3 +275,7 @@ _File systems that Linux supports_
 - XFS
 - Btrfs
 - FAT
+
+_File Allocation Table (FAT)_
+
+An older file system compatible with different operating systems.
