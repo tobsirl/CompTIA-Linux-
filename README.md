@@ -295,3 +295,7 @@ Supports volumes up to one exabyte and files up to 16 terabytes.
 _XFS_
 
 A 64-bit, high-performance journaling file system that provides fast recovery and can handle large files efficiently.
+
+_Btrfs_
+
+Supports volumes of up to 1 exabyte in size and up to 18 quintillion files on each volume.
