@@ -299,3 +299,7 @@ A 64-bit, high-performance journaling file system that provides fast recovery an
 _Btrfs_
 
 Supports volumes of up to 1 exabyte in size and up to 18 quintillion files on each volume.
+
+### Device Mapper
+
+Creates virtual device and passes data from that virtual device to one or more physical devices.
