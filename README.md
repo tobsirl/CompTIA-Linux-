@@ -359,3 +359,13 @@ _RAID 6_
 - Requires at least 4 disks
 - Parity is distributed across all disks
 - More expensive than RAID 5
+
+_RAID 10_
+
+- Striping with mirroring
+- Redundancy
+- Fault tolerance
+- High performance
+- Data protection
+- Requires at least 4 disks
+- Can withstand the loss of one disk in each mirrored pair
