@@ -315,3 +315,7 @@ Combines multiple physical disks into a single logical unit.
 _Mirroring_
 
 Combines multiple physical disks into a single logical unit and duplicates the data on each disk.
+
+_Parity_
+
+Used in RAID drive arrays for fault tolerance by calculating the data across multiple disks and storing the results on a separate disk.
