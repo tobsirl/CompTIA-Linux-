@@ -303,3 +303,15 @@ Supports volumes of up to 1 exabyte in size and up to 18 quintillion files on ea
 ### Device Mapper
 
 Creates virtual device and passes data from that virtual device to one or more physical devices.
+
+### Raid
+
+Redundant Array of Independent Disks (RAID) is a method of combining multiple physical disk drives into a single logical unit.
+
+_Striping_
+
+Combines multiple physical disks into a single logical unit.
+
+_Mirroring_
+
+Combines multiple physical disks into a single logical unit and duplicates the data on each disk.
