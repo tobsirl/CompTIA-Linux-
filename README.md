@@ -373,3 +373,7 @@ _RAID 10_
 _/proc/mdstat_
 
 Contains a snapshot of the kernel's RAID status.
+
+#### Logical Volume Manager (LVM)
+
+Maps whole physical devices and partions into one or more virtual containers called volume groups.
