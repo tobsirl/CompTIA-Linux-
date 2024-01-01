@@ -377,3 +377,7 @@ Contains a snapshot of the kernel's RAID status.
 #### Logical Volume Manager (LVM)
 
 Maps whole physical devices and partions into one or more virtual containers called volume groups.
+
+- Dynamically create, delete, and resize volumes
+- Map logical volumes across physical devices
+- Create virtual snapshots of each logical volume
