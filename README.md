@@ -369,3 +369,7 @@ _RAID 10_
 - Data protection
 - Requires at least 4 disks
 - Can withstand the loss of one disk in each mirrored pair
+
+_/proc/mdstat_
+
+Contains a snapshot of the kernel's RAID status.
