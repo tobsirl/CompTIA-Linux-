@@ -348,3 +348,14 @@ _RAID 5_
 - Requires at least 3 disks
 - Can withstand the loss of one disk
 - Parity is distributed across all disks
+
+_RAID 6_
+
+- Striping with double parity
+- Redundancy
+- Fault tolerance (can withstand the loss of two disks)
+- High performance
+- Data protection
+- Requires at least 4 disks
+- Parity is distributed across all disks
+- More expensive than RAID 5
