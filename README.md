@@ -319,3 +319,13 @@ Combines multiple physical disks into a single logical unit and duplicates the d
 _Parity_
 
 Used in RAID drive arrays for fault tolerance by calculating the data across multiple disks and storing the results on a separate disk.
+
+#### RAID Levels
+
+_RAID 0_
+
+- Striping
+- No redundancy
+- No fault tolerance
+- High performance
+- No data protection
