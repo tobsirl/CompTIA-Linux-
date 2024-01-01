@@ -329,3 +329,11 @@ _RAID 0_
 - No fault tolerance
 - High performance
 - No data protection
+
+_RAID 1_
+
+- Mirroring
+- Redundancy
+- Fault tolerance
+- High performance
+- Data protection
