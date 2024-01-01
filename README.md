@@ -337,3 +337,14 @@ _RAID 1_
 - Fault tolerance
 - High performance
 - Data protection
+
+_RAID 5_
+
+- Striping with parity
+- Redundancy
+- Fault tolerance
+- High performance
+- Data protection
+- Requires at least 3 disks
+- Can withstand the loss of one disk
+- Parity is distributed across all disks
