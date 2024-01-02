@@ -395,3 +395,12 @@ Loads a file system to a specified directory to make it accessible to users and 
 mount # Mount file system
 mount [options] {device_name} {mount_point}
 ```
+
+_umount_
+
+Unmounts a file system from a specified directory.
+
+```bash
+umount # Unmount file system
+umount [options] {device_name} {mount_point}
+```
