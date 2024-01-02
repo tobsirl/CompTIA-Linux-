@@ -381,3 +381,7 @@ Maps whole physical devices and partions into one or more virtual containers cal
 - Dynamically create, delete, and resize volumes
 - Map logical volumes across physical devices
 - Create virtual snapshots of each logical volume
+
+_Mount Point_
+
+An access point that is typically an empty directory where a file system is loaded or mounted to make it accessible to users.
