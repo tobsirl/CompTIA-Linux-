@@ -385,3 +385,8 @@ Maps whole physical devices and partions into one or more virtual containers cal
 _Mount Point_
 
 An access point that is typically an empty directory where a file system is loaded or mounted to make it accessible to users.
+
+#### Commands
+
+_mount_
+Loads a file system to a specified directory to make it accessible to users and applications.
