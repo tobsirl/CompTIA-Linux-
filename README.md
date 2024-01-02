@@ -390,3 +390,8 @@ An access point that is typically an empty directory where a file system is load
 
 _mount_
 Loads a file system to a specified directory to make it accessible to users and applications.
+
+```bash
+mount # Mount file system
+mount [options] {device_name} {mount_point}
+```
