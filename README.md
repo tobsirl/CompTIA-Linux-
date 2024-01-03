@@ -412,3 +412,7 @@ A list of file systems to be mounted, their mount points, and any options that m
 _systemd.mount_
 
 Used to create an new mount unit to mount a file system.
+
+_/etc/mtab_
+
+Reports the status of currently mounted file systems.
