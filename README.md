@@ -420,3 +420,7 @@ Reports the status of currently mounted file systems.
 _lsblk_
 
 Displays information about block storage devices currently available on the system
+
+_blkid_
+
+Prints each block device in a flat format and includes some additional information.
