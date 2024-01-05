@@ -424,3 +424,7 @@ Displays information about block storage devices currently available on the syst
 _blkid_
 
 Prints each block device in a flat format and includes some additional information.
+
+_fsck_
+
+Used to check the correctness and validity of a file system.
