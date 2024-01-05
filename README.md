@@ -432,3 +432,8 @@ Used to check the correctness and validity of a file system.
 _resize2fs_
 
 Used to resize ext2, ext3, and ext4 file systems.
+
+_tune2fs_
+
+Used to adjust tunable file system parameters on ext2, ext3, and ext4 file systems.
+tune2fs can also add a journal to an existing ext2 or ext3 file system.
