@@ -428,3 +428,7 @@ Prints each block device in a flat format and includes some additional informati
 _fsck_
 
 Used to check the correctness and validity of a file system.
+
+_resize2fs_
+
+Used to resize ext2, ext3, and ext4 file systems.
