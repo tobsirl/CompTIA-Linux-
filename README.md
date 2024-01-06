@@ -441,3 +441,7 @@ tune2fs can also add a journal to an existing ext2 or ext3 file system.
 Superblock
 
 Contains metadata about the file system, such as the file system type, size, status, and information about other metadata structures.
+
+_dumpe2fs_
+
+Used to display the superblock and blocks group information for the file system.
