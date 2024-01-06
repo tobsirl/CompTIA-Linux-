@@ -445,3 +445,7 @@ Contains metadata about the file system, such as the file system type, size, sta
 _dumpe2fs_
 
 Used to display the superblock and blocks group information for the file system.
+
+Isscsi
+
+Used to list information about SCSI devices connected to the system.
