@@ -437,3 +437,7 @@ _tune2fs_
 
 Used to adjust tunable file system parameters on ext2, ext3, and ext4 file systems.
 tune2fs can also add a journal to an existing ext2 or ext3 file system.
+
+Superblock
+
+Contains metadata about the file system, such as the file system type, size, status, and information about other metadata structures.
