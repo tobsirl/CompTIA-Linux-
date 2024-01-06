@@ -449,3 +449,7 @@ Used to display the superblock and blocks group information for the file system.
 Isscsi
 
 Used to list information about SCSI devices connected to the system.
+
+_fcstat_
+
+Used to display statistics for Fibre Channel devices.
