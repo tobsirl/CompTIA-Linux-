@@ -468,3 +468,9 @@ Types of files and directories:
 - Domain sockets
 - Named pipes
 - Special files
+
+_Directories_
+Contain files and other directories.
+
+_Special Files_
+System files stored in the /dev directory.
