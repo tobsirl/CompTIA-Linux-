@@ -453,3 +453,18 @@ Used to list information about SCSI devices connected to the system.
 _fcstat_
 
 Used to display statistics for Fibre Channel devices.
+
+### Linux Directory Structure
+
+Contains all of the files and directories that are required for the system to function.
+
+Types of files and directories:
+
+- Text files
+- Executable files
+- Input and output files
+- Directories
+- Links
+- Domain sockets
+- Named pipes
+- Special files
