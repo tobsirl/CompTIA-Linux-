@@ -481,3 +481,6 @@ Make a file accessible in multiple part of the system's file tree
 
 _Domain Sockets_
 Provide inter-process networking that is protected by the file system's access control lists.
+
+_Named Pipes_
+Enable processes to communicate with each other without using a network sockets
