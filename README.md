@@ -516,3 +516,15 @@ Stores users' home directories and files.
 _/lib_
 
 Stores shared program libraries required by the kernel, command-line utilities, and binaries
+
+_/media_
+
+Contains mount points for removable media devices.
+
+_/mnt_
+
+Contains mount points for temporary file systems.
+
+_/opt_
+
+Contains optional software packages.
