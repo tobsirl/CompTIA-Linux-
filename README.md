@@ -540,3 +540,19 @@ The home directory of the root user.
 _/sbin_
 
 Stores binaries used for completing the booting process which are also used by the root user
+
+_/sys_
+
+Contains information about devices, drivers, and some kernel features.
+
+_/tmp_
+
+Contains temporary files that are created by applications and users.
+
+_/usr_
+
+A read-only directory that stores small programs and files accessible by all users.
+
+_/var_
+
+Contains files that are expected to change in size and content as the system is running.
