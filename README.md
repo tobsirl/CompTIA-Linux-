@@ -528,3 +528,15 @@ Contains mount points for temporary file systems.
 _/opt_
 
 Contains optional software packages.
+
+_/proc_
+
+Contains information about system resources and processes.
+
+_/root_
+
+The home directory of the root user.
+
+_/sbin_
+
+Stores binaries used for completing the booting process which are also used by the root user
