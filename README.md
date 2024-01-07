@@ -488,3 +488,23 @@ Enable processes to communicate with each other without using a network sockets
 ### File System Hierarchy Standard (FHS)
 
 Specifies a set of guidelines and standards that define the directory structure and directory contents in Linux distributions.
+
+_/_
+
+The root directory of the entire file system hierarchy.
+
+_/bin_
+
+Contains executable programs that are required by all users.
+
+_/boot_
+
+Contains files required to boot the system.
+
+_/dev_
+
+Contains special files that represent devices attached to the system.
+
+_/etc_
+
+Contains system configuration files.
