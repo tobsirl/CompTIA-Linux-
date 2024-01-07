@@ -556,3 +556,7 @@ A read-only directory that stores small programs and files accessible by all use
 _/var_
 
 Contains files that are expected to change in size and content as the system is running.
+
+### Current Working Directory (CWD)
+
+The location on the system being accessed at any point in time
