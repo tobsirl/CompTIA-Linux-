@@ -484,3 +484,7 @@ Provide inter-process networking that is protected by the file system's access c
 
 _Named Pipes_
 Enable processes to communicate with each other without using a network sockets
+
+### File System Hierarchy Standard (FHS)
+
+Specifies a set of guidelines and standards that define the directory structure and directory contents in Linux distributions.
