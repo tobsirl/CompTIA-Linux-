@@ -478,3 +478,6 @@ System files stored in the /dev directory.
 _Links_
 
 Make a file accessible in multiple part of the system's file tree
+
+_Domain Sockets_
+Provide inter-process networking that is protected by the file system's access control lists.
