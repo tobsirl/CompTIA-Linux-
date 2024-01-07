@@ -508,3 +508,11 @@ Contains special files that represent devices attached to the system.
 _/etc_
 
 Contains system configuration files.
+
+_/home_
+
+Stores users' home directories and files.
+
+_/lib_
+
+Stores shared program libraries required by the kernel, command-line utilities, and binaries
