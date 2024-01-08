@@ -572,3 +572,16 @@ Ensure storage devices are recognized by the system and available to the user
 - Performance issues
 - Resource exhaustion
 - Storage integrity issues
+
+_ulimit_
+
+Used to set limits on system resources.
+
+```bash
+ulimit # Display resource limits
+ulimit -a # Display all resource limits
+ulimit -aH # Display all resource limits in human readable format
+ulimit -aS # Display all resource limits in machine readable format
+ulimit -c # Display core file size
+ulimit -c unlimited # Set core file size to unlimited
+```
