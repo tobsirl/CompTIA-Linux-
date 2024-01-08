@@ -564,3 +564,11 @@ The location on the system being accessed at any point in time
 ### Troubleshooting Storage Issues
 
 Ensure storage devices are recognized by the system and available to the user
+
+- Missing devices
+- Missing volumes
+- Missing mount points
+- Degraded storage
+- Performance issues
+- Resource exhaustion
+- Storage integrity issues
