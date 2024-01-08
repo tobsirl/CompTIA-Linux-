@@ -560,3 +560,7 @@ Contains files that are expected to change in size and content as the system is 
 ### Current Working Directory (CWD)
 
 The location on the system being accessed at any point in time
+
+### Troubleshooting Storage Issues
+
+Ensure storage devices are recognized by the system and available to the user
