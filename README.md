@@ -585,3 +585,26 @@ ulimit -aS # Display all resource limits in machine readable format
 ulimit -c # Display core file size
 ulimit -c unlimited # Set core file size to unlimited
 ```
+
+_df/du_
+
+Facilitate the monitoring of disk space usage.
+
+```bash
+df # Display disk space usage
+df -h # Display disk space usage in human readable format
+df -a # Display all file systems
+df -T # Display file system type
+df -i # Display inode usage
+df -x tmpfs # Exclude file system type
+df -x devtmpfs # Exclude file system type
+df -x squashfs # Exclude file system type
+df -x tmpfs -x devtmpfs -x squashfs # Exclude multiple file system types
+du # Display disk usage
+du -h # Display disk usage in human readable format
+du -a # Display all files
+du -s # Display total disk usage
+du -c # Display total disk usage
+du -h -a -s -c # Display total disk usage in human readable format
+du -h -a -s -c -x tmpfs -x devtmpfs -x squashfs # Exclude multiple file system types
+```
