@@ -612,3 +612,14 @@ du -h -a -s -c -x tmpfs -x devtmpfs -x squashfs # Exclude multiple file system t
 #### I/O Scheduling
 
 The process where the OS determines the order of input and output operations as they pertain to block storage devices.
+
+_iostat_
+
+Used to monitor I/O statistics.
+
+```bash
+iostat # Display I/O statistics
+iostat -x # Display extended I/O statistics
+iostat -x 1 # Display extended I/O statistics every 1 second
+iostat -x 1 5 # Display extended I/O statistics every 1 second for 5 iterations
+```
