@@ -629,3 +629,13 @@ iostat -x 1 5 # Display extended I/O statistics every 1 second for 5 iterations
 - Number of blocks written per second (kB_wrtn/s)
 - Total number of blocks read (kB_read)
 - Total number of blocks written (kB_wrtn)
+
+_ioping_
+
+Used to monitor I/O latency.
+Troubleshoots I/O performance issues.
+
+```bash
+ioping # Display I/O latency
+ioping -c 10 # Display I/O latency for 10 iterations
+```
