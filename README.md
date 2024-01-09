@@ -608,3 +608,7 @@ du -c # Display total disk usage
 du -h -a -s -c # Display total disk usage in human readable format
 du -h -a -s -c -x tmpfs -x devtmpfs -x squashfs # Exclude multiple file system types
 ```
+
+#### I/O Scheduling
+
+Thhe process where the OS determines the order of input and output operations as they pertain to block storage devices.
