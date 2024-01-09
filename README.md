@@ -639,3 +639,7 @@ Troubleshoots I/O performance issues.
 ioping # Display I/O latency
 ioping -c 10 # Display I/O latency for 10 iterations
 ```
+
+#### Storage Quota
+
+Storage space alloted to a user for a file storage on a computer.
