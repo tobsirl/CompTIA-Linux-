@@ -623,3 +623,8 @@ iostat -x # Display extended I/O statistics
 iostat -x 1 # Display extended I/O statistics every 1 second
 iostat -x 1 5 # Display extended I/O statistics every 1 second for 5 iterations
 ```
+
+- Transfers per second (tps)
+- Number of blocks read per second (kB_read/s)
+- Number of blocks written per second (kB_wrtn/s)
+- Total number of blocks read (kB_read)
