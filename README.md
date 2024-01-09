@@ -611,4 +611,4 @@ du -h -a -s -c -x tmpfs -x devtmpfs -x squashfs # Exclude multiple file system t
 
 #### I/O Scheduling
 
-Thhe process where the OS determines the order of input and output operations as they pertain to block storage devices.
+The process where the OS determines the order of input and output operations as they pertain to block storage devices.
