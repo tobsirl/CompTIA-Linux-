@@ -645,3 +645,5 @@ ioping -c 10 # Display I/O latency for 10 iterations
 Storage space alloted to a user for a file storage on a computer.
 
 ## Files and Directories
+
+### Create, Delete, Copy, and Move Files and Directories
