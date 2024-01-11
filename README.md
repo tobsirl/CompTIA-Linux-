@@ -646,4 +646,24 @@ Storage space alloted to a user for a file storage on a computer.
 
 ## Files and Directories
 
-### Create, Delete, Copy, and Move Files and Directories
+### Searching for Files
+
+_locate_
+
+Used to search for files by name.
+
+```bash
+locate # Search for files by name
+locate -i # Search for files by name (case insensitive)
+locate -c # Display number of matching entries
+locate -l 5 # Display 5 matching entries
+locate -S # Display statistics
+locate -d {database} # Search a specific database
+locate -e {file} # Search for an exact match
+locate -r {regex} # Search using a regular expression
+locate -b {file} # Search for a file name only
+locate -q {file} # Suppress error messages
+locate -n {number} {file} # Display number of matching entries
+locate -o {file} # Display only files that exist
+locate -r {regex} | grep {regex} # Search using a regular expression
+```
