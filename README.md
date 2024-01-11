@@ -698,3 +698,14 @@ find {directory} -iname {file} -type f -size 1M # Search for files by name (case
 find {directory} -iname {file} -type f -size +1M -size -10M # Search for files by name (case insensitive), type, and size
 find {directory} -iname {file} -type f -size +1M -size -10M -exec ls -lh {} \; # Search for files by name (case insensitive), type, and size and execute command
 ```
+
+_which_
+
+Used to locate the binary file of a command.
+
+```bash
+which # Locate the binary file of a command
+which {command} # Locate the binary file of a command
+```
+
+_whereis_
