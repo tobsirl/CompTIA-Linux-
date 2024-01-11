@@ -709,3 +709,10 @@ which {command} # Locate the binary file of a command
 ```
 
 _whereis_
+
+Used to locate the binary file, source code, and manual page of a command.
+
+```bash
+whereis # Locate the binary file, source code, and manual page of a command
+whereis {command} # Locate the binary file, source code, and manual page of a command
+```
