@@ -667,3 +667,11 @@ locate -n {number} {file} # Display number of matching entries
 locate -o {file} # Display only files that exist
 locate -r {regex} | grep {regex} # Search using a regular expression
 ```
+
+_updatedb_
+
+Used to update the locate database.
+
+```bash
+updatedb # Update the locate database
+```
