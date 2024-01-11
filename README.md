@@ -675,3 +675,26 @@ Used to update the locate database.
 ```bash
 updatedb # Update the locate database
 ```
+
+_find_
+
+Used to search for files by name, size, type, and other criteria.
+
+```bash
+find # Search for files by name, size, type, and other criteria
+find {directory} # Search for files by name, size, type, and other criteria
+find {directory} -name {file} # Search for files by name
+find {directory} -iname {file} # Search for files by name (case insensitive)
+find {directory} -iname {file} -type f # Search for files by name (case insensitive) and type
+find {directory} -iname {file} -type d # Search for directories by name (case insensitive) and type
+find {directory} -iname {file} -type l # Search for links by name (case insensitive) and type
+find {directory} -iname {file} -type b # Search for block devices by name (case insensitive) and type
+find {directory} -iname {file} -type c # Search for character devices by name (case insensitive) and type
+find {directory} -iname {file} -type s # Search for sockets by name (case insensitive) and type
+find {directory} -iname {file} -type p # Search for named pipes by name (case insensitive) and type
+find {directory} -iname {file} -type f -size +1M # Search for files by name (case insensitive), type, and size
+find {directory} -iname {file} -type f -size -1M # Search for files by name (case insensitive), type, and size
+find {directory} -iname {file} -type f -size 1M # Search for files by name (case insensitive), type, and size
+find {directory} -iname {file} -type f -size +1M -size -10M # Search for files by name (case insensitive), type, and size
+find {directory} -iname {file} -type f -size +1M -size -10M -exec ls -lh {} \; # Search for files by name (case insensitive), type, and size and execute command
+```
