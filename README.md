@@ -815,3 +815,15 @@ rm -r {directory} # Remove directory
 rm -f {file} # Force remove file
 rm -rf {directory} # Force remove directory
 ```
+
+_unlink_
+
+Used to remove files and directories.
+
+```bash
+unlink # Remove files and directories
+unlink {file} # Remove file
+unlink -r {directory} # Remove directory
+unlink -f {file} # Force remove file
+unlink -rf {directory} # Force remove directory
+```
