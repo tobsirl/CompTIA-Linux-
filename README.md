@@ -758,3 +758,12 @@ Used to display the contents of a file one page at a time.
 less # Display the contents of a file one page at a time
 less {file} # Display the contents of a file one page at a time
 ```
+
+_more_
+
+Used to display the contents of a file one page at a time.
+
+```bash
+more # Display the contents of a file one page at a time
+more {file} # Display the contents of a file one page at a time
+```
