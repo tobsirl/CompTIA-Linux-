@@ -827,3 +827,12 @@ unlink -r {directory} # Remove directory
 unlink -f {file} # Force remove file
 unlink -rf {directory} # Force remove directory
 ```
+
+_rmdir_
+
+Used to remove empty directories.
+
+```bash
+rmdir # Remove empty directories
+rmdir {directory} # Remove empty directory
+```
