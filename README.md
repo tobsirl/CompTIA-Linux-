@@ -767,3 +767,14 @@ Used to display the contents of a file one page at a time.
 more # Display the contents of a file one page at a time
 more {file} # Display the contents of a file one page at a time
 ```
+
+_copy/cp_
+
+Used to copy files and directories.
+
+```bash
+cp # Copy files and directories
+cp {file} {directory} # Copy file to directory
+cp {file1} {file2} # Copy file1 to file2
+cp -r {directory1} {directory2} # Copy directory1 to directory2
+```
