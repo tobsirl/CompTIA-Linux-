@@ -778,3 +778,14 @@ cp {file} {directory} # Copy file to directory
 cp {file1} {file2} # Copy file1 to file2
 cp -r {directory1} {directory2} # Copy directory1 to directory2
 ```
+
+_mv_
+
+Used to move files and directories.
+
+```bash
+mv # Move files and directories
+mv {file} {directory} # Move file to directory
+mv {file1} {file2} # Move file1 to file2
+mv {directory1} {directory2} # Move directory1 to directory2
+```
