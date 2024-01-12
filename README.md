@@ -716,3 +716,15 @@ Used to locate the binary file, source code, and manual page of a command.
 whereis # Locate the binary file, source code, and manual page of a command
 whereis {command} # Locate the binary file, source code, and manual page of a command
 ```
+
+_cat/concatenates_
+
+Can display, combine, and create files.
+
+```bash
+cat # Display, combine, and create files
+cat {file} # Display file
+cat {file1} {file2} # Combine files
+cat {file1} {file2} > {file3} # Combine files and create new file
+cat {file1} {file2} >> {file3} # Combine files and append to existing file
+```
