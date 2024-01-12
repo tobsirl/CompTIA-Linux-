@@ -749,3 +749,12 @@ tail {file} # Display the last 10 lines of a file
 tail -n 5 {file} # Display the last 5 lines of a file
 tail -f {file} # Display the last 10 lines of a file and continue to monitor the file for changes
 ```
+
+_less_
+
+Used to display the contents of a file one page at a time.
+
+```bash
+less # Display the contents of a file one page at a time
+less {file} # Display the contents of a file one page at a time
+```
