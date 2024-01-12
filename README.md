@@ -803,3 +803,15 @@ touch -c {file} # Do not create file
 touch -r {file1} {file2} # Use file1 as reference for file2
 touch -t {yyyymmddhhmm.ss} {file} # Use timestamp to create file
 ```
+
+_rm_
+
+Used to remove files and directories.
+
+```bash
+rm # Remove files and directories
+rm {file} # Remove file
+rm -r {directory} # Remove directory
+rm -f {file} # Force remove file
+rm -rf {directory} # Force remove directory
+```
