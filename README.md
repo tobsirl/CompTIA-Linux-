@@ -738,3 +738,14 @@ head # Display the first 10 lines of a file
 head {file} # Display the first 10 lines of a file
 head -n 5 {file} # Display the first 5 lines of a file
 ```
+
+_tail_
+
+Used to display the last 10 lines of a file.
+
+```bash
+tail # Display the last 10 lines of a file
+tail {file} # Display the last 10 lines of a file
+tail -n 5 {file} # Display the last 5 lines of a file
+tail -f {file} # Display the last 10 lines of a file and continue to monitor the file for changes
+```
