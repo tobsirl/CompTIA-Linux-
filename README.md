@@ -789,3 +789,17 @@ mv {file} {directory} # Move file to directory
 mv {file1} {file2} # Move file1 to file2
 mv {directory1} {directory2} # Move directory1 to directory2
 ```
+
+_touch_
+
+Tests the permissions or creates files that will be processed by some applications.
+
+```bash
+touch # Tests the permissions or creates files that will be processed by some applications
+touch {file} # Create file
+touch -a {file} # Change access time
+touch -m {file} # Change modification time
+touch -c {file} # Do not create file
+touch -r {file1} {file2} # Use file1 as reference for file2
+touch -t {yyyymmddhhmm.ss} {file} # Use timestamp to create file
+```
