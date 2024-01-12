@@ -846,3 +846,21 @@ mkdir # Create directories
 mkdir {directory} # Create directory
 mkdir -p {directory1}/{directory2} # Create directory1 and directory2
 ```
+
+_ls_
+
+Used to list files and directories.
+
+```bash
+ls # List files and directories
+ls -a # List all files and directories
+ls -l # List files and directories in long format
+ls -lh # List files and directories in long format with human readable file sizes
+ls -lha # List all files and directories in long format with human readable file sizes
+ls -lS # List files and directories in long format sorted by size
+ls -lSr # List files and directories in long format sorted by size in reverse order
+ls -lSh # List files and directories in long format sorted by size with human readable file sizes
+ls -lSrh # List files and directories in long format sorted by size with human readable file sizes in reverse order
+ls -lSah # List all files and directories in long format sorted by size with human readable file sizes
+ls -lSarh # List all files and directories in long format sorted by size with human readable file sizes in reverse order
+```
