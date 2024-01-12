@@ -728,3 +728,13 @@ cat {file1} {file2} # Combine files
 cat {file1} {file2} > {file3} # Combine files and create new file
 cat {file1} {file2} >> {file3} # Combine files and append to existing file
 ```
+
+_head_
+
+Used to display the first 10 lines of a file.
+
+```bash
+head # Display the first 10 lines of a file
+head {file} # Display the first 10 lines of a file
+head -n 5 {file} # Display the first 5 lines of a file
+```
