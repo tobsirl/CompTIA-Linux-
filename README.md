@@ -836,3 +836,13 @@ Used to remove empty directories.
 rmdir # Remove empty directories
 rmdir {directory} # Remove empty directory
 ```
+
+_mkdir_
+
+Used to create directories.
+
+```bash
+mkdir # Create directories
+mkdir {directory} # Create directory
+mkdir -p {directory1}/{directory2} # Create directory1 and directory2
+```
