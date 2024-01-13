@@ -878,3 +878,15 @@ echo {string1} {string2} # Print out string1 and string2 as the standard output
 echo {string1} {string2} > {file} # Print out string1 and string2 as the standard output and create file
 echo {string1} {string2} >> {file} # Print out string1 and string2 as the standard output and append to file
 ```
+
+_printf_
+
+Provides the user with more control over the output.
+
+```bash
+printf # Print out arguments as the standard output
+printf {string} # Print out string as the standard output
+printf {string1} {string2} # Print out string1 and string2 as the standard output
+printf {string1} {string2} > {file} # Print out string1 and string2 as the standard output and create file
+printf {string1} {string2} >> {file} # Print out string1 and string2 as the standard output and append to file
+```
