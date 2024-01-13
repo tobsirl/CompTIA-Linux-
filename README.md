@@ -890,3 +890,13 @@ printf {string1} {string2} # Print out string1 and string2 as the standard outpu
 printf {string1} {string2} > {file} # Print out string1 and string2 as the standard output and create file
 printf {string1} {string2} >> {file} # Print out string1 and string2 as the standard output and append to file
 ```
+
+_tr_
+
+Used to translate or delete characters.
+
+```bash
+tr # Translate or delete characters
+tr {string1} {string2} # Translate string1 to string2
+tr -d {string1} # Delete string1
+```
