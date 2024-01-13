@@ -924,3 +924,18 @@ sort -r {file} # Sort the contents of a file in reverse order
 sort -n {file} # Sort the contents of a file numerically
 sort -u {file} # Sort the contents of a file and remove duplicates
 ```
+
+_cut_
+
+Used to extract sections from each line of a file.
+
+```bash
+cut # Extract sections from each line of a file
+cut -c 1-5 {file} # Extract characters 1-5 from each line of a file
+cut -c 1,3,5 {file} # Extract characters 1, 3, and 5 from each line of a file
+cut -c 1-5,7-9 {file} # Extract characters 1-5 and 7-9 from each line of a file
+cut -c 1-5,7-9 --output-delimiter=" " {file} # Extract characters 1-5 and 7-9 from each line of a file and replace delimiter with space
+cut -d ":" -f 1 {file} # Extract fields 1 from each line of a file using delimiter :
+cut -d ":" -f 1,3 {file} # Extract fields 1 and 3 from each line of a file using delimiter :
+cut -d ":" -f 1,3 --output-delimiter=" " {file} # Extract fields 1 and 3 from each line of a file using delimiter : and replace delimiter with space
+```
