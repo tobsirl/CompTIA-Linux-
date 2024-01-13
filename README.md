@@ -912,3 +912,15 @@ wc -l {file} # Count the number of lines in a file
 wc -w {file} # Count the number of words in a file
 wc -c {file} # Count the number of characters in a file
 ```
+
+_sort_
+
+Used to sort the contents of a file.
+
+```bash
+sort # Sort the contents of a file
+sort {file} # Sort the contents of a file
+sort -r {file} # Sort the contents of a file in reverse order
+sort -n {file} # Sort the contents of a file numerically
+sort -u {file} # Sort the contents of a file and remove duplicates
+```
