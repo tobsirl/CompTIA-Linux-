@@ -900,3 +900,15 @@ tr # Translate or delete characters
 tr {string1} {string2} # Translate string1 to string2
 tr -d {string1} # Delete string1
 ```
+
+_wc_
+
+Used to count the number of lines, words, and characters in a file.
+
+```bash
+wc # Count the number of lines, words, and characters in a file
+wc {file} # Count the number of lines, words, and characters in a file
+wc -l {file} # Count the number of lines in a file
+wc -w {file} # Count the number of words in a file
+wc -c {file} # Count the number of characters in a file
+```
