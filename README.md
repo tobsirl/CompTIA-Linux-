@@ -864,3 +864,17 @@ ls -lSrh # List files and directories in long format sorted by size with human r
 ls -lSah # List all files and directories in long format sorted by size with human readable file sizes
 ls -lSarh # List all files and directories in long format sorted by size with human readable file sizes in reverse order
 ```
+
+### Process Text Files
+
+_echo_
+
+Built-in Linux feature that prints out arguments as the standard output.
+
+```bash
+echo # Print out arguments as the standard output
+echo {string} # Print out string as the standard output
+echo {string1} {string2} # Print out string1 and string2 as the standard output
+echo {string1} {string2} > {file} # Print out string1 and string2 as the standard output and create file
+echo {string1} {string2} >> {file} # Print out string1 and string2 as the standard output and append to file
+```
