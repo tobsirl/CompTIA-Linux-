@@ -939,3 +939,14 @@ cut -d ":" -f 1 {file} # Extract fields 1 from each line of a file using delimit
 cut -d ":" -f 1,3 {file} # Extract fields 1 and 3 from each line of a file using delimiter :
 cut -d ":" -f 1,3 --output-delimiter=" " {file} # Extract fields 1 and 3 from each line of a file using delimiter : and replace delimiter with space
 ```
+
+_paste_
+
+Used to merge lines of files.
+
+```bash
+paste # Merge lines of files
+paste {file1} {file2} # Merge lines of files
+paste {file1} {file2} > {file3} # Merge lines of files and create file
+paste {file1} {file2} >> {file3} # Merge lines of files and append to file
+```
