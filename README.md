@@ -950,3 +950,15 @@ paste {file1} {file2} # Merge lines of files
 paste {file1} {file2} > {file3} # Merge lines of files and create file
 paste {file1} {file2} >> {file3} # Merge lines of files and append to file
 ```
+
+_diff_
+
+Used to compare files line by line.
+
+```bash
+diff # Compare files line by line
+diff {file1} {file2} # Compare files line by line
+diff -u {file1} {file2} # Compare files line by line and display unified output
+diff -c {file1} {file2} # Compare files line by line and display context output
+diff -y {file1} {file2} # Compare files line by line and display side by side output
+```
