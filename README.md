@@ -989,3 +989,19 @@ grep -A {number} {string1} {file} # Search for string1 in file and display numbe
 grep -B {number} {string1} {file} # Search for string1 in file and display number of lines before match
 grep -C {number} {string1} {file} # Search for string1 in file and display number of lines before and after match
 ```
+
+_awk_
+
+Performs pattern matching on files
+
+```bash
+awk # Perform pattern matching on files
+awk '{print $1}' {file} # Print first field of each line in file
+awk '{print $1, $2}' {file} # Print first and second field of each line in file
+awk '{print $1, $2}' {file} > {file2} # Print first and second field of each line in file and create file2
+awk '{print $1, $2}' {file} >> {file2} # Print first and second field of each line in file and append to file2
+awk -F ":" '{print $1}' {file} # Print first field of each line in file using : as delimiter
+awk -F ":" '{print $1, $2}' {file} # Print first and second field of each line in file using : as delimiter
+awk -F ":" '{print $1, $2}' {file} > {file2} # Print first and second field of each line in file using : as delimiter and create file2
+awk -F ":" '{print $1, $2}' {file} >> {file2} # Print first and second field of each line in file using : as delimiter and append to file2
+```
