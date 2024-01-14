@@ -1026,3 +1026,19 @@ sed 's/{string1}/{string2}/g' {file} >> {file2} # Replace string1 with string2 i
 sed 's/{string1}/{string2}/g' {file} | tee {file2} # Replace string1 with string2 in file globally and create file2
 sed 's/{string1}/{string2}/g' {file} | tee -a {file2} # Replace string1 with string2 in file globally and append to file2
 ```
+
+_link/ln_
+
+Used to create links between files.
+
+```bash
+ln # Create links between files
+ln -s {file1} {file2} # Create symbolic link to file1
+ln -s {directory1} {directory2} # Create symbolic link to directory1
+ln -s {file1} {file2} {file3} # Create symbolic links to file1
+ln -s {directory1} {directory2} {directory3} # Create symbolic links to directory1
+ln -s {file1} {file2} {file3} {file4} # Create symbolic links to file1
+ln -s {directory1} {directory2} {directory3} {directory4} # Create symbolic links to directory1
+ln -s {file1} {file2} {file3} {file4} {file5} # Create symbolic links to file1
+ln -s {directory1} {directory2} {directory3} {directory4} {directory5} # Create symbolic links to directory1
+```
