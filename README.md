@@ -1005,3 +1005,24 @@ awk -F ":" '{print $1, $2}' {file} # Print first and second field of each line i
 awk -F ":" '{print $1, $2}' {file} > {file2} # Print first and second field of each line in file using : as delimiter and create file2
 awk -F ":" '{print $1, $2}' {file} >> {file2} # Print first and second field of each line in file using : as delimiter and append to file2
 ```
+
+_sed_
+
+Program used to perform basic text transformations on an input stream.
+
+```bash
+sed # Perform basic text transformations on an input stream
+sed 's/{string1}/{string2}/' {file} # Replace string1 with string2 in file
+sed 's/{string1}/{string2}/g' {file} # Replace string1 with string2 in file globally
+sed 's/{string1}/{string2}/2' {file} # Replace second occurrence of string1 with string2 in file
+sed 's/{string1}/{string2}/I' {file} # Replace string1 with string2 in file (case insensitive)
+sed 's/{string1}/{string2}/p' {file} # Replace string1 with string2 in file and print only the changed lines
+sed 's/{string1}/{string2}/w {file2}' {file} # Replace string1 with string2 in file and write only the changed lines to file2
+sed 's/{string1}/{string2}/i' {file} # Replace string1 with string2 in file and prompt for confirmation
+sed 's/{string1}/{string2}/c' {file} # Replace string1 with string2 in file and prompt for confirmation
+sed 's/{string1}/{string2}/e' {file} # Replace string1 with string2 in file and prompt for confirmation
+sed 's/{string1}/{string2}/g' {file} > {file2} # Replace string1 with string2 in file globally and create file2
+sed 's/{string1}/{string2}/g' {file} >> {file2} # Replace string1 with string2 in file globally and append to file2
+sed 's/{string1}/{string2}/g' {file} | tee {file2} # Replace string1 with string2 in file globally and create file2
+sed 's/{string1}/{string2}/g' {file} | tee -a {file2} # Replace string1 with string2 in file globally and append to file2
+```
