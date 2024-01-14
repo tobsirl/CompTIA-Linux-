@@ -962,3 +962,30 @@ diff -u {file1} {file2} # Compare files line by line and display unified output
 diff -c {file1} {file2} # Compare files line by line and display context output
 diff -y {file1} {file2} # Compare files line by line and display side by side output
 ```
+
+_grep_
+
+Used to search for text patterns in files.
+
+```bash
+grep # Search for text patterns in files
+grep {string} {file} # Search for string in file
+grep -i {string} {file} # Search for string in file (case insensitive)
+grep -v {string} {file} # Search for string in file and display lines that do not match
+grep -c {string} {file} # Search for string in file and display number of matches
+grep -n {string} {file} # Search for string in file and display line numbers
+grep -r {string} {directory} # Search for string in directory recursively
+grep -w {string} {file} # Search for string in file and display lines that match whole words
+grep -e {string1} -e {string2} {file} # Search for string1 and string2 in file
+grep -E {string1} {file} # Search for string1 in file using extended regular expressions
+grep -F {string1} {file} # Search for string1 in file using fixed strings
+grep -o {string1} {file} # Search for string1 in file and display only the matching part
+grep -l {string1} {file} # Search for string1 in file and display only the file names
+grep -L {string1} {file} # Search for string1 in file and display only the file names that do not match
+grep -q {string1} {file} # Search for string1 in file and suppress output
+grep -s {string1} {file} # Search for string1 in file and suppress error messages
+grep -m {number} {string1} {file} # Search for string1 in file and stop after number of matches
+grep -A {number} {string1} {file} # Search for string1 in file and display number of lines after match
+grep -B {number} {string1} {file} # Search for string1 in file and display number of lines before match
+grep -C {number} {string1} {file} # Search for string1 in file and display number of lines before and after match
+```
