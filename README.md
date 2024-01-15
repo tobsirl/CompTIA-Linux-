@@ -1048,3 +1048,7 @@ ln -s {directory1} {directory2} {directory3} {directory4} {directory5} # Create 
 #### Text Stream
 
 Sequence of lines of text that can be leveraged to read or write to a particular device or system component.
+
+#### Standard Input (stdin)
+
+Acts as the source for command input
