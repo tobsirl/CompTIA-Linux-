@@ -1056,3 +1056,7 @@ Acts as the source for command input
 #### Standard Output (stdout)
 
 Acts as the destination for command output
+
+#### Standard Error (stderr)
+
+Acts as the destination for error messages
