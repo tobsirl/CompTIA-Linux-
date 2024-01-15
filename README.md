@@ -1062,3 +1062,18 @@ Acts as the destination for command output
 Acts as the destination for error messages
 
 Redirecting the input and output of various commands to and from files is possible
+
+#### Redirection
+
+The process of sending the output of one command to another command or file.
+
+```bash
+# Redirect stdout to file
+command > file # Overwrite file
+
+command >> file # Append stdout to file
+
+command 2> file # Redirect stderr to file
+
+command 2>> file # Append stderr to file
+```
