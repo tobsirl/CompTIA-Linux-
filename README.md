@@ -1060,3 +1060,5 @@ Acts as the destination for command output
 #### Standard Error (stderr)
 
 Acts as the destination for error messages
+
+Redirecting the input and output of various commands to and from files is possible
