@@ -1085,3 +1085,14 @@ command << file # Redirect file to stdin
 
 command | command # Redirect stdout of command to stdin of command
 ```
+
+_xargs_
+
+Reads streams of data from standard inut, then generates and executes commands lines
+
+```bash
+xargs # Reads streams of data from standard inut, then generates and executes commands lines
+xargs -n 1 # Read one argument at a time
+
+find /foo -type f -print | xargs -n 1 rm -f # Delete files one at a time
+```
