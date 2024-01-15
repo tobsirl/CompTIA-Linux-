@@ -1042,3 +1042,9 @@ ln -s {directory1} {directory2} {directory3} {directory4} # Create symbolic link
 ln -s {file1} {file2} {file3} {file4} {file5} # Create symbolic links to file1
 ln -s {directory1} {directory2} {directory3} {directory4} {directory5} # Create symbolic links to directory1
 ```
+
+### Manipulate File Output
+
+#### Text Stream
+
+Sequence of lines of text that can be leveraged to read or write to a particular device or system component.
