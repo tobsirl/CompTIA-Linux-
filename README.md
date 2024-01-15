@@ -1078,4 +1078,8 @@ command 2> file # Redirect stderr to file
 command 2>> file # Append stderr to file
 
 command &> file # Redirect stdout and stderr to file
+
+command < file # Redirect file to stdin
+
+command << file # Redirect file to stdin
 ```
