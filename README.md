@@ -1052,3 +1052,7 @@ Sequence of lines of text that can be leveraged to read or write to a particular
 #### Standard Input (stdin)
 
 Acts as the source for command input
+
+#### Standard Output (stdout)
+
+Acts as the destination for command output
