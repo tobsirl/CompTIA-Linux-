@@ -1082,4 +1082,6 @@ command &> file # Redirect stdout and stderr to file
 command < file # Redirect file to stdin
 
 command << file # Redirect file to stdin
+
+command | command # Redirect stdout of command to stdin of command
 ```
