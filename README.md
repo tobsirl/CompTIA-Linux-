@@ -1096,3 +1096,13 @@ xargs -n 1 # Read one argument at a time
 
 find /foo -type f -print | xargs -n 1 rm -f # Delete files one at a time
 ```
+
+_tee_
+
+Reads the standard input and writes it to both the standard output and one or more files.
+
+```bash
+tee # Reads the standard input and writes it to both the standard output and one or more files
+tee {file} # Reads the standard input and writes it to both the standard output and one or more files
+tee -a {file} # Reads the standard input and writes it to both the standard output and one or more files
+```
