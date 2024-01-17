@@ -1120,3 +1120,11 @@ tee -a {file} # Reads the standard input and writes it to both the standard outp
 - Processes
 - Devices
 - Resource allocation of a system
+
+#### Kernel Space
+
+Where the kernal executes services
+
+#### User Space
+
+Area of memory outside the kernel space
