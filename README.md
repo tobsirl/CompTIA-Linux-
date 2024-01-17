@@ -1106,3 +1106,16 @@ tee # Reads the standard input and writes it to both the standard output and one
 tee {file} # Reads the standard input and writes it to both the standard output and one or more files
 tee -a {file} # Reads the standard input and writes it to both the standard output and one or more files
 ```
+
+## Kernal Modules
+
+- System initialization
+- Process scheduling
+- Memory and hardware management
+
+### Kernel
+
+- File system access
+- Memory
+- Processes
+- Devices
