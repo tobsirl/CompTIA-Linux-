@@ -1132,3 +1132,6 @@ The split between two memories is useful because it promotes greater stability a
 
 **Monolithic Kernel**
 All system modules, such as device drivers or file systems run in kernel space
+
+**Microkernel Architecture**
+Kernel runs the minimum amount of resources necessary to implement an operating system
