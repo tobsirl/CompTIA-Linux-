@@ -1129,3 +1129,6 @@ Where the kernal executes services
 
 Area of memory outside the kernel space
 The split between two memories is useful because it promotes greater stability and security
+
+**Monolithic Kernel**
+All system modules, such as device drivers or file systems run in kernel space
