@@ -1146,3 +1146,18 @@ Free and open-source monolitric kernel that manages all other resources on an op
 - Support for TCP/IP networking
 - Shared libraries
 - Modularity
+
+_uname_
+
+Prints the name of the kernel
+
+```bash
+uname # Print the name of the kernel
+uname -a # Print all information
+uname -r # Print the kernel release
+uname -v # Print the kernel version
+uname -m # Print the machine hardware name
+uname -p # Print the processor type
+uname -i # Print the hardware platform
+uname -o # Print the operating system
+```
