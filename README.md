@@ -1135,3 +1135,6 @@ All system modules, such as device drivers or file systems run in kernel space
 
 **Microkernel Architecture**
 Kernel runs the minimum amount of resources necessary to implement an operating system
+
+**Device Drivers**
+Enables operatings systems to identify the characteristics and functions of a hardware device
