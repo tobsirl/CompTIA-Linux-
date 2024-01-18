@@ -1161,3 +1161,7 @@ uname -p # Print the processor type
 uname -i # Print the hardware platform
 uname -o # Print the operating system
 ```
+
+### System Call Interface (SCI)
+
+Handles system calls sent from user applications to the kernel
