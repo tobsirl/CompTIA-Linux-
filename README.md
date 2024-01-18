@@ -1165,3 +1165,7 @@ uname -o # Print the operating system
 ### System Call Interface (SCI)
 
 Handles system calls sent from user applications to the kernel
+
+### Process Management
+
+Handles different processes by allocating separate execution space on the processor
