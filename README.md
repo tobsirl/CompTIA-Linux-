@@ -1169,3 +1169,11 @@ Handles system calls sent from user applications to the kernel
 ### Process Management
 
 Handles different processes by allocating separate execution space on the processor
+
+### Memory Management
+
+Manages the memory of the system by allocating memory to processes and applications
+
+### File System Management
+
+Manages the file system by providing access to files and directories
