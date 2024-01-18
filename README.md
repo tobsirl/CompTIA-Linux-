@@ -1141,3 +1141,8 @@ Enables operatings systems to identify the characteristics and functions of a ha
 
 **Linux Kernel Modules**
 Free and open-source monolitric kernel that manages all other resources on an operating system
+
+- Virtual memory management
+- Support for TCP/IP networking
+- Shared libraries
+- Modularity
