@@ -1138,3 +1138,6 @@ Kernel runs the minimum amount of resources necessary to implement an operating 
 
 **Device Drivers**
 Enables operatings systems to identify the characteristics and functions of a hardware device
+
+**Linux Kernel Modules**
+Free and open-source monolitric kernel that manages all other resources on an operating system
