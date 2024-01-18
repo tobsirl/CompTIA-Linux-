@@ -1181,3 +1181,7 @@ Manages the file system by providing access to files and directories
 ### Virtual File System (VFS)
 
 Provides an abstract view of the underlying data that is organized under complex structures
+
+### Device Management
+
+Manages the devices connected to the system
