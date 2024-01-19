@@ -1220,3 +1220,12 @@ Inserts a module into the Linux kernel
 insmod # Insert a module into the Linux kernel
 insmod {module} # Insert a module into the Linux kernel
 ```
+
+_rmmod_
+
+Removes a module from the Linux kernel
+
+```bash
+rmmod # Remove a module from the Linux kernel
+rmmod {module} # Remove a module from the Linux kernel
+```
