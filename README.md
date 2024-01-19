@@ -1185,3 +1185,7 @@ Provides an abstract view of the underlying data that is organized under complex
 ### Device Management
 
 Manages the devices connected to the system
+
+### Kernel Modules
+
+Linux kernel is loaded into memory by the boot loader
