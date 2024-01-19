@@ -1202,3 +1202,12 @@ Displays the status of modules in the Linux kernel
 lsmod # Display the status of modules in the Linux kernel
 lsmod | grep {module} # Display the status of a module in the Linux kernel
 ```
+
+_modinfo_
+
+Displays information about a module
+
+```bash
+modinfo # Display information about a module
+modinfo {module} # Display information about a module
+```
