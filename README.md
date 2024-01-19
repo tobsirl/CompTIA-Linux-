@@ -1193,3 +1193,12 @@ Linux kernel is loaded into memory by the boot loader
 ### /usr/lib/modules/
 
 Contians the modules of different kernel versions
+
+_lsmod_
+
+Displays the status of modules in the Linux kernel
+
+```bash
+lsmod # Display the status of modules in the Linux kernel
+lsmod | grep {module} # Display the status of a module in the Linux kernel
+```
