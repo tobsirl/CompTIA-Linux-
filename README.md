@@ -1229,3 +1229,12 @@ Removes a module from the Linux kernel
 rmmod # Remove a module from the Linux kernel
 rmmod {module} # Remove a module from the Linux kernel
 ```
+
+_modprobe_
+
+Inserts and removes modules from the Linux kernel
+
+```bash
+modprobe # Insert and remove modules from the Linux kernel
+modprobe {module} # Insert and remove modules from the Linux kernel
+```
