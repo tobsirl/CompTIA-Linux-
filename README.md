@@ -1189,3 +1189,7 @@ Manages the devices connected to the system
 ### Kernel Modules
 
 Linux kernel is loaded into memory by the boot loader
+
+### /usr/lib/modules/
+
+Contians the modules of different kernel versions
