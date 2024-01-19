@@ -1211,3 +1211,12 @@ Displays information about a module
 modinfo # Display information about a module
 modinfo {module} # Display information about a module
 ```
+
+_insmod_
+
+Inserts a module into the Linux kernel
+
+```bash
+insmod # Insert a module into the Linux kernel
+insmod {module} # Insert a module into the Linux kernel
+```
