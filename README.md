@@ -1238,3 +1238,11 @@ Inserts and removes modules from the Linux kernel
 modprobe # Insert and remove modules from the Linux kernel
 modprobe {module} # Insert and remove modules from the Linux kernel
 ```
+
+_depmod_
+
+Creates a dependency file that lists the dependencies of all loadable modules
+
+```bash
+depmod # Create a dependency file that lists the dependencies of all loadable modules
+```
