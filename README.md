@@ -1221,7 +1221,7 @@ insmod # Insert a module into the Linux kernel
 insmod {module} # Insert a module into the Linux kernel
 ```
 
-_rmmod_
+### rmmod
 
 Removes a module from the Linux kernel
 
@@ -1239,7 +1239,7 @@ modprobe # Insert and remove modules from the Linux kernel
 modprobe {module} # Insert and remove modules from the Linux kernel
 ```
 
-_depmod_
+### depmod
 
 Creates a dependency file that lists the dependencies of all loadable modules
 
@@ -1247,7 +1247,7 @@ Creates a dependency file that lists the dependencies of all loadable modules
 depmod # Create a dependency file that lists the dependencies of all loadable modules
 ```
 
-_sysctl_
+### sysctl
 
 Used to configure kernel parameters at runtime
 
