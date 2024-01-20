@@ -1246,3 +1246,15 @@ Creates a dependency file that lists the dependencies of all loadable modules
 ```bash
 depmod # Create a dependency file that lists the dependencies of all loadable modules
 ```
+
+_sysctl_
+
+Used to configure kernel parameters at runtime
+
+```bash
+sysctl # Configure kernel parameters at runtime
+sysctl -a # Display all kernel parameters
+sysctl -a | grep {parameter} # Display a kernel parameter
+sysctl -w {parameter}={value} # Set a kernel parameter
+sysctl -p # Load kernel parameters from /etc/sysctl.conf
+```
