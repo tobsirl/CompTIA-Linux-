@@ -1282,3 +1282,7 @@ Contains a list of file systems types that are supported by the kernel
 ### /proc/meminfo
 
 Contains information about the system's memory
+
+### /proc/modules
+
+Contains a list of all modules loaded into the kernel
