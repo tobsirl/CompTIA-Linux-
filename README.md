@@ -1258,3 +1258,7 @@ sysctl -a | grep {parameter} # Display a kernel parameter
 sysctl -w {parameter}={value} # Set a kernel parameter
 sysctl -p # Load kernel parameters from /etc/sysctl.conf
 ```
+
+### /proc/
+
+Virtual file system (VFS) that provides information about the kernel's running process
