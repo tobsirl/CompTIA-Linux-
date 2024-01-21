@@ -1278,3 +1278,7 @@ Contains information about the devices configured into the kernel
 ### /proc/filesystems
 
 Contains a list of file systems types that are supported by the kernel
+
+### /proc/meminfo
+
+Contains information about the system's memory
