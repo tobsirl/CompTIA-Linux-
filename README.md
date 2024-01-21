@@ -1294,3 +1294,12 @@ Contains information about the system's CPU and I/O statistics
 ### /proc/version
 
 Contains information about the kernel version
+
+### dmesg
+
+Used to print messages that have been sent to the kernel's message during the boot process
+
+```bash
+dmesg # Print messages that have been sent to the kernel's message during the boot process
+dmesg | grep {string} # Print messages that have been sent to the kernel's message during the boot process
+```
