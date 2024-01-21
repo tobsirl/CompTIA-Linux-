@@ -1266,3 +1266,7 @@ Virtual file system (VFS) that provides information about the kernel's running p
 ### /proc/cmdline
 
 Contains options passed to the kerenl at boot time
+
+### /proc/cpuinfo
+
+Contains information about the CPU
