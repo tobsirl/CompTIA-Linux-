@@ -1286,3 +1286,7 @@ Contains information about the system's memory
 ### /proc/modules
 
 Contains a list of all modules loaded into the kernel
+
+### /proc/stat
+
+Contains information about the system's CPU and I/O statistics
