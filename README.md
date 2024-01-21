@@ -1274,3 +1274,7 @@ Contains information about the CPU
 ### /proc/devices
 
 Contains information about the devices configured into the kernel
+
+### /proc/filesystems
+
+Contains a list of file systems types that are supported by the kernel
