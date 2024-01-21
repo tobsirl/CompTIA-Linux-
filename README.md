@@ -1262,3 +1262,7 @@ sysctl -p # Load kernel parameters from /etc/sysctl.conf
 ### /proc/
 
 Virtual file system (VFS) that provides information about the kernel's running process
+
+### /proc/cmdline
+
+Contains options passed to the kerenl at boot time
