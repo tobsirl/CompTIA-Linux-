@@ -1270,3 +1270,7 @@ Contains options passed to the kerenl at boot time
 ### /proc/cpuinfo
 
 Contains information about the CPU
+
+### /proc/devices
+
+Contains information about the devices configured into the kernel
