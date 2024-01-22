@@ -1305,3 +1305,7 @@ dmesg | grep {string} # Print messages that have been sent to the kernel's messa
 ```
 
 ## The Linux Boot Process
+
+### Booting
+
+Process of starting or restarting a computer and loading an operating system
