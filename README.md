@@ -1309,3 +1309,7 @@ dmesg | grep {string} # Print messages that have been sent to the kernel's messa
 ### Booting
 
 Process of starting or restarting a computer and loading an operating system
+
+### Boot Loader
+
+Small program stored in ROM that loads the kernel from a storgae device
