@@ -1303,3 +1303,5 @@ Used to print messages that have been sent to the kernel's message during the bo
 dmesg # Print messages that have been sent to the kernel's message during the boot process
 dmesg | grep {string} # Print messages that have been sent to the kernel's message during the boot process
 ```
+
+## The Linux Boot Process
