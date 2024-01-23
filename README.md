@@ -1317,3 +1317,7 @@ Small program stored in ROM that loads the kernel from a storgae device
 ### Boot Sector Program
 
 Loads the second boot loader on startup
+
+### Second Stage Boot Loader
+
+Loads the operating system and contains a kernel loader
