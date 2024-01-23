@@ -1325,3 +1325,6 @@ Loads the operating system and contains a kernel loader
 ### Boot Loader Installer
 
 Controls the installation of drive sectors and runs only when booting
+
+- Basic Input/Output System (BIOS)
+- Unified Extensible Firmware Interface (UEFI)
