@@ -1332,3 +1332,7 @@ Controls the installation of drive sectors and runs only when booting
 ### BIOS
 
 Enables to test the various hardware components in a computer as well as run a boot loader
+
+### UEFI
+
+Operates with a greater amount of memory, accesses storage drives and hardware types, and has improved security features
