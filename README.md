@@ -1313,3 +1313,7 @@ Process of starting or restarting a computer and loading an operating system
 ### Boot Loader
 
 Small program stored in ROM that loads the kernel from a storgae device
+
+### Boot Sector Program
+
+Loads the second boot loader on startup
