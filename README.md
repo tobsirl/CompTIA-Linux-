@@ -1328,3 +1328,7 @@ Controls the installation of drive sectors and runs only when booting
 
 - Basic Input/Output System (BIOS)
 - Unified Extensible Firmware Interface (UEFI)
+
+### BIOS
+
+Enables to test the various hardware components in a computer as well as run a boot loader
