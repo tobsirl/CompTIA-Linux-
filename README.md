@@ -1321,3 +1321,7 @@ Loads the second boot loader on startup
 ### Second Stage Boot Loader
 
 Loads the operating system and contains a kernel loader
+
+### Boot Loader Installer
+
+Controls the installation of drive sectors and runs only when booting
