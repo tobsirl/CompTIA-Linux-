@@ -1336,3 +1336,7 @@ Enables to test the various hardware components in a computer as well as run a b
 ### UEFI
 
 Operates with a greater amount of memory, accesses storage drives and hardware types, and has improved security features
+
+### Master Boot Record (MBR)
+
+Sector that the BIOS loads from the boot device
