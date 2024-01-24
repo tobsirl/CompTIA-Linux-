@@ -1340,3 +1340,7 @@ Operates with a greater amount of memory, accesses storage drives and hardware t
 ### Master Boot Record (MBR)
 
 Sector that the BIOS loads from the boot device
+
+### GUID Partition Table (GPT)
+
+Partition structure with a more modern design and is part of the UEFI specification
