@@ -1344,3 +1344,7 @@ Sector that the BIOS loads from the boot device
 ### GUID Partition Table (GPT)
 
 Partition structure with a more modern design and is part of the UEFI specification
+
+### Raw Partition
+
+Enables users and applicatins to read from and write to a block storage without using the system cache
