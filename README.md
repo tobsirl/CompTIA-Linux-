@@ -1356,3 +1356,7 @@ Root file system that is temporarily loaded into memory during the boot process
 ### initrd image
 
 Archive file that contains all the essential files that are required for booting the operating system
+
+### mkinitrd
+
+Used to create the initrd image for preloading the kernel modules
