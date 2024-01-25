@@ -1352,3 +1352,7 @@ Enables users and applicatins to read from and write to a block storage without 
 ### Initial RAM Disk (initrd)
 
 Root file system that is temporarily loaded into memory during the boot process
+
+### initrd image
+
+Archive file that contains all the essential files that are required for booting the operating system
