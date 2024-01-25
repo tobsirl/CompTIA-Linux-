@@ -1348,3 +1348,7 @@ Partition structure with a more modern design and is part of the UEFI specificat
 ### Raw Partition
 
 Enables users and applicatins to read from and write to a block storage without using the system cache
+
+### Initial RAM Disk (initrd)
+
+Root file system that is temporarily loaded into memory during the boot process
