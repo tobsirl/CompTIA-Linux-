@@ -1364,3 +1364,13 @@ Used to create the initrd image for preloading the kernel modules
 ### /boot/
 
 Contains files that are used to facilitace the Linux boot process
+
+### dracut
+
+Used to create the initrd image for preloading the kernel modules
+
+```bash
+dracut # Create the initrd image for preloading the kernel modules
+dracut -f # Force the creation of the initrd image for preloading the kernel modules
+dracut -f /boot/initramfs-$(uname -r).img # Force the creation of the initrd image for preloading the kernel modules
+```
