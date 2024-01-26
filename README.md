@@ -1374,3 +1374,7 @@ dracut # Create the initrd image for preloading the kernel modules
 dracut -f # Force the creation of the initrd image for preloading the kernel modules
 dracut -f /boot/initramfs-$(uname -r).img # Force the creation of the initrd image for preloading the kernel modules
 ```
+
+### Kernel Panic
+
+Occurs when the kernel cannot continue to run safely
