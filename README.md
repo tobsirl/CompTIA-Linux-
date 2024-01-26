@@ -1360,3 +1360,7 @@ Archive file that contains all the essential files that are required for booting
 ### mkinitrd
 
 Used to create the initrd image for preloading the kernel modules
+
+### /boot/
+
+Contains files that are used to facilitace the Linux boot process
