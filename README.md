@@ -1378,3 +1378,5 @@ dracut -f /boot/initramfs-$(uname -r).img # Force the creation of the initrd ima
 ### Kernel Panic
 
 Occurs when the kernel cannot continue to run safely
+
+### GRUB 2
