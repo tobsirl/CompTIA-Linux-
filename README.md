@@ -1388,3 +1388,7 @@ Occurs when the kernel cannot continue to run safely
 Adapting system components for use within a distinct culture
 
 The cron daemon uses the system's time zone for executing cron jobs
+
+#### /usr/share/zoneinfo/
+
+A container for all the regional time zones the system can use
