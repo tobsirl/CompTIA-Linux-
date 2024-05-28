@@ -1380,3 +1380,9 @@ dracut -f /boot/initramfs-$(uname -r).img # Force the creation of the initrd ima
 Occurs when the kernel cannot continue to run safely
 
 ### GRUB 2
+
+## System Components
+
+### Localization
+
+Adapting system components for use within a distinct culture
