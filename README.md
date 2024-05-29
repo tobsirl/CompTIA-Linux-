@@ -1394,3 +1394,7 @@ The cron daemon uses the system's time zone for executing cron jobs
 A container for all the regional time zones the system can use
 
 Create a symbolic link to one of the individual time zones files to the `/etc/localtime` file
+
+#### /etc/timezone
+
+Lists the time zone by the region structure seen in the `/usr/share/zoneinfo/` directory
