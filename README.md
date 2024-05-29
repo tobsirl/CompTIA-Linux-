@@ -1392,3 +1392,5 @@ The cron daemon uses the system's time zone for executing cron jobs
 #### /usr/share/zoneinfo/
 
 A container for all the regional time zones the system can use
+
+Create a symbolic link to one of the individual time zones files to the `/etc/localtime` file
