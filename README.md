@@ -1398,3 +1398,7 @@ Create a symbolic link to one of the individual time zones files to the `/etc/lo
 #### /etc/timezone
 
 Lists the time zone by the region structure seen in the `/usr/share/zoneinfo/` directory
+
+### date
+
+Prints the date in a specified format based on the /etc/localtime file
