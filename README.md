@@ -1402,3 +1402,7 @@ Lists the time zone by the region structure seen in the `/usr/share/zoneinfo/` d
 ### date
 
 Prints the date in a specified format based on the /etc/localtime file
+
+```bash
+<day of the week> <month> <day> <24-hour time --:--:--> <time zone> <year>
+```
